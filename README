@@ -1,0 +1,3 @@
+This AttributedLabel is very useful
+You can set different font and color of an NSString on the label
+And the most of all,when you touch some text you appoint,it can make an action,such as NSLog(""),push into another view controller
