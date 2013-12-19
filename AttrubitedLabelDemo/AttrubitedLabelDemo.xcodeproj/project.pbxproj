@@ -20,6 +20,8 @@
 		18BE68B2186290A800AD7C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BE68B0186290A800AD7C84 /* InfoPlist.strings */; };
 		18BE68B4186290A900AD7C84 /* AttrubitedLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE68B3186290A900AD7C84 /* AttrubitedLabelDemoTests.m */; };
 		18BE68C01862911B00AD7C84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE68BE1862911B00AD7C84 /* ViewController.m */; };
+		18BE68C61862946400AD7C84 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE68C51862946400AD7C84 /* CustomLabel.m */; };
+		18BE68C81862959C00AD7C84 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE68C71862959C00AD7C84 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		18BE68B3186290A900AD7C84 /* AttrubitedLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttrubitedLabelDemoTests.m; sourceTree = "<group>"; };
 		18BE68BD1862911B00AD7C84 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18BE68BE1862911B00AD7C84 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BE68C41862946400AD7C84 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		18BE68C51862946400AD7C84 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		18BE68C71862959C00AD7C84 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BE68C81862959C00AD7C84 /* CoreText.framework in Frameworks */,
 				18BE6891186290A800AD7C84 /* CoreGraphics.framework in Frameworks */,
 				18BE6893186290A800AD7C84 /* UIKit.framework in Frameworks */,
 				18BE688F186290A800AD7C84 /* Foundation.framework in Frameworks */,
@@ -99,6 +105,7 @@
 		18BE688D186290A800AD7C84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18BE68C71862959C00AD7C84 /* CoreText.framework */,
 				18BE688E186290A800AD7C84 /* Foundation.framework */,
 				18BE6890186290A800AD7C84 /* CoreGraphics.framework */,
 				18BE6892186290A800AD7C84 /* UIKit.framework */,
@@ -114,6 +121,8 @@
 				18BE689E186290A800AD7C84 /* AppDelegate.m */,
 				18BE68BD1862911B00AD7C84 /* ViewController.h */,
 				18BE68BE1862911B00AD7C84 /* ViewController.m */,
+				18BE68C41862946400AD7C84 /* CustomLabel.h */,
+				18BE68C51862946400AD7C84 /* CustomLabel.m */,
 				18BE68A0186290A800AD7C84 /* Images.xcassets */,
 				18BE6895186290A800AD7C84 /* Supporting Files */,
 			);
@@ -247,6 +256,7 @@
 				18BE68C01862911B00AD7C84 /* ViewController.m in Sources */,
 				18BE689F186290A800AD7C84 /* AppDelegate.m in Sources */,
 				18BE689B186290A800AD7C84 /* main.m in Sources */,
+				18BE68C61862946400AD7C84 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

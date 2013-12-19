@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "CustomLabel.h"
+@interface ViewController : UIViewController<CustomLabelDelegate>
+{
+    CustomLabel *customLabel;
+}
 
 @end
