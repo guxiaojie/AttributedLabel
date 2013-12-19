@@ -37,12 +37,7 @@
     }
     
     //this label of CustomLabel's object only shows static data
-    customLabel.text = @" • I will be contracting for GeeksMobile\n"
-    @" • I agree to the terms of this assignment\n"
-    @" • Payment is the responsibility of Test Client\n"
-    @" • I will be paid within 30 days of approval of my work\n"
-    @" • I have read and agree to follow the Code of Conduct\n"
-    @" • Touch me";
+    customLabel.text = @"I will be contracting for GeeksMobile.I agree to the terms of this assignment.Payment is the responsibility of Test Client.I will be paid within 30 days of approval of my work.I have read and agree to follow the Code of Conduct,Touch me";
     [customLabel setFont:[UIFont systemFontOfSize:12] fromIndex:0 length:[customLabel.text length]];
     
     
