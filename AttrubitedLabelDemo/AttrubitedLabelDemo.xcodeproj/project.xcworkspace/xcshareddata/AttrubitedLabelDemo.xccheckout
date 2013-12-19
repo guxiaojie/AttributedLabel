@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F8002C6-EAE8-42CC-B2AE-F21BEC059996</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AttrubitedLabelDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2950E9CB-5989-4CDA-8494-BB9193AED46D</key>
+		<string>https://github.com/pythonhater/AttributedLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AttrubitedLabelDemo/AttrubitedLabelDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2950E9CB-5989-4CDA-8494-BB9193AED46D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pythonhater/AttributedLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2950E9CB-5989-4CDA-8494-BB9193AED46D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2950E9CB-5989-4CDA-8494-BB9193AED46D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AttributedLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
